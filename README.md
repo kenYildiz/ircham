@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Ircham</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header id="header">
+        <nav>
+        <h1>Ircham</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Hobi</a></li>
+                <li><a href="#projects">Galeri</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-image">
+            <img src="c:\Users\KOmp4\Downloads\WhatsApp Image 2026-02-09 at 11.18.37.jpeg" alt="Foto Ircham"
+        </div>
+        <h1 class="highlight">Halo, Saya <span>Ircham Ma'in Dafiq</span></h1>
+        <p>Aspiring Web Developer | SMK RPL Student</p>
+        <a href="#contact">Hubungi Saya</a>
+      </section>
+
+    <!-- About Section -->
+    <section id="about">
+    <h2>Tentang Saya</h2>
+
+        <div class="about_content">
+            <img src="c:\Users\KOmp4\Downloads\WhatsApp Image 2026-02-09 at 11.05.09.jpeg" alt="Foto Profil" >
+
+            <div class="about_text">
+                <p>Halo! Saya Ircham Ma'in Dafiq, siswa SMK jurusan Rekayasa Perangkat Lunak yang memiliki minat di bidang olahraga..</p>
+                <p>"Gunung mengajarkan kita bahwa setiap langkah berat membawa kita lebih dekat pada puncak, dan keindahan sejati ditemukan bukan di atas, tapi dalam perjalanan yang kita jalani."</p>
+            </div>
+        </div>
+    </section>
+
+  <!-- SKills Section  -->
+     <section id="skills">
+        <h2>Hobi Saya</h2>
+        <div class="container">
+            <div class="item">
+                <h3>MANCING</h3>
+                <p></p>
+            </div>
+            <div class="item">
+                <h3>LARI</h3>
+                <p></p>
+            </div class="item">
+            <div>
+                <h3>MAKAN</h3>
+                <p></p>
+            </div>
+        </div>
+     </section>
+   <!-- Project Section -->
+      <section id="projects">
+        <h2>Galeri</h2>
+        <div>
+            <article>
+                <h3>Foto Saya</h3>
+                <P>Random</P>
+                 <img src="c:\Users\KOmp4\Downloads\WhatsApp Image 2026-02-09 at 11.25.31.jpeg" width="200" height="200">
+            </article>
+            <article>
+                <h3>Foto Saya</h3>
+                <P>Random</P>
+                 <img src="c:\Users\KOmp4\Downloads\WhatsApp Image 2026-02-09 at 11.25.31 (1).jpeg" width="200" height="200">
+            </article>
+            <article>
+                <h3>Foto Saya</h3>
+                <P>Random</P>
+                 <img src="c:\Users\KOmp4\Downloads\WhatsApp Image 2026-02-09 at 11.25.32.jpeg" width="200" height="200">
+            </article>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+       <section id="contact">
+        <h2>Hubungi Saya</h2>
+        <form>
+            <div>
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="email@example.com" required>
+            </div>
+            <div>
+                <label for="Pesan">Pesan:</label><br>
+                <textarea id="pesan" name="Pesan" rows="5" placeholder="Tulis Pesan Anda..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Kirim</button>
+            <button type="reset">Reset</button>
+        </form>
+       </section>
+
+ <!-- Footer -->
+     <footer>
+            <p> &copy; 2026 Ircham. All right reserved.</p>
+            <div>
+                <a href="irchammain@gmail.com">irchammain@gmail.com</a>
+                <a href="https://www.instagram.com/mayndfq?igsh=MWo5ejVtaTcxYjk1eg==" target="_blank">@mayndfq</a>
+            </div>
+     </footer>
+</body>
+</html>
